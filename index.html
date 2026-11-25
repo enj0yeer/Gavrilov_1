@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Стартовая страница для практики с Bootstrap 4.5">
+    <title>Моя первая страница · Bootstrap</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="brand" href="#top" aria-label="На главную">СТАРТ<span>.</span></a>
+        <span class="lesson-mark">ВЕБ-РАЗРАБОТКА&nbsp; / &nbsp;01</span>
+      </div>
+    </header>
+
+    <main id="top" class="container page-content">
+      <section class="intro row align-items-center">
+        <div class="col-lg-8">
+          <p class="eyebrow">Среда для верстки готова</p>
+          <h1>Моя первая<br><span>страница.</span></h1>
+          <p class="intro-copy">Bootstrap подключён локально. Теперь можно собирать адаптивные страницы из готовых компонентов.</p>
+        </div>
+        <div class="col-lg-4 intro-note-wrap">
+          <div class="intro-note">
+            <span class="note-number">01</span>
+            <p>Проверь страницу на узком экране — сетка перестроится автоматически.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section" aria-labelledby="demo-heading">
+        <div class="section-heading d-flex flex-wrap align-items-end justify-content-between">
+          <div>
+            <p class="eyebrow">Первый шаг</p>
+            <h2 id="demo-heading">Подключения работают</h2>
+          </div>
+          <span class="version-tag">Bootstrap&nbsp; 4.5.3</span>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <article class="demo-card h-100">
+              <span class="card-index">01 / СТИЛИ</span>
+              <h3>Сетка Bootstrap</h3>
+              <p>Эти две колонки используют классы <code>row</code> и <code>col-md-6</code>. На телефоне они встанут друг под другом.</p>
+              <div class="grid-preview" aria-hidden="true"><span></span><span></span></div>
+            </article>
+          </div>
+          <div class="col-md-6 mb-4">
+            <article class="demo-card demo-card-dark h-100">
+              <span class="card-index">02 / СКРИПТЫ</span>
+              <h3>Раскрывающийся блок</h3>
+              <p>Нажми кнопку, чтобы проверить работу Bootstrap JS и jQuery.</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#script-check" aria-expanded="false" aria-controls="script-check">
+                Проверить скрипт <span aria-hidden="true">↓</span>
+              </button>
+              <div class="collapse" id="script-check">
+                <div class="collapse-note">Готово — Bootstrap JS подключён и работает.</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container d-flex flex-wrap justify-content-between">
+        <span>Моя учебная страница</span>
+        <span>HTML · CSS · JavaScript</span>
+      </div>
+    </footer>
+
+    <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
